@@ -38,6 +38,12 @@
 
 
 
+#### - Comandos -
+
+**git init** - Inicializar um repositório.
+
+
+
 
 
 
