@@ -46,7 +46,7 @@ Acesso aos itens é restrito; somente um item pode ser lido ou removido por vez.
 
 Esta estrutura segue o conceito FIFO, onde o elemento a ser removido é o mais antigo na estrutura.
 
-### Árvore
+### Árvores
 
 Elementos organizados de forma hierárquica, um elemento no topo da árvore chamada raiz e outros abaixo chamados nós ou folhas.
 
