@@ -3,9 +3,10 @@
 **Instrutor: Bruno Campos**
 
 **Redes sociais do instrutor:**
-linkedin.com/in/brunodecamposdias
-brunocdias.blogspot.com
-youtube.com/brunodecamposdias
+
+- linkedin.com/in/brunodecamposdias
+- brunocdias.blogspot.com
+- youtube.com/brunodecamposdias
 
 ### Estrutura de dados
 
