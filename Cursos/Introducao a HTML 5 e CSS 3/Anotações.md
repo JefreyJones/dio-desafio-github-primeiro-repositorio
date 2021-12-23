@@ -279,7 +279,7 @@ border-radius: 50%;<br>
 
 <br>
 
-### Fonte-Family <br>
+### Font-Family <br>
 
 **Ex:**<br>
 
@@ -291,5 +291,60 @@ border-radius: 50%;<br>
 
 **Obs:** no exemplo acima, **"verdana"** é a fonte principal e **"arial"** a fonte alternativa se a principal falhar.<br>
 
+### Font-Size <br>
 
+**Ex:**<br>
 
+`.post-title {`
+
+`font-size: 18px;`
+
+`}`<br>
+
+### Font-Style <br>
+
+**Ex:**<br>
+
+`#title {`
+
+`font-style: normal;`
+
+`}`<br>
+
+`#subtitle {`
+
+`font-style: italic;`
+
+`}`<br>
+
+### Font-Weight <br>
+
+**Ex:**<br>
+
+`#title {`
+
+`font-weight: normal;`
+
+`}`<br>
+
+`#subtitle {`
+
+`font-weight: bold;`
+
+`}`<br>
+
+### Text-Transform <br>
+
+**Ex:**<br>
+
+`#title {`
+
+`text-transform: uppercase;`
+
+`}`<br>
+
+`#subtitle {`
+
+`text-transform: lowercase;`
+
+`}`<br>
