@@ -9,15 +9,11 @@
 
 - Existem 5 versões (HTLM5 lançado em 2014);<br>
 
-  <br>
-
-  ### Estrutura básica de um documento HTML -
-
 <br>
 
-<br>
+## Estrutura básica de um documento HTML -
 
-**`<!DOCTYPE html>`** - informa ao navegador o que está sendo escrito (não é um elemento HTML).
+<br>**`<!DOCTYPE html>`** - informa ao navegador o que está sendo escrito (não é um elemento HTML).
 
 **`<html>`** -  inicia os elementos (é a raiz do documento).
 
@@ -39,9 +35,9 @@
 
   <br><br>
 
-### Alguns elementos de semântica -  
+## Alguns elementos de semântica -  
 
-  <br><br>**`<section>`** - representa uma seção genérica de conteúdo. Ex: uma lista de artigos.
+<br>**`<section>`** - representa uma seção genérica de conteúdo. Ex: uma lista de artigos.
 
 **`<header>`**  - cabeçalho da página ou de uma section.
 
