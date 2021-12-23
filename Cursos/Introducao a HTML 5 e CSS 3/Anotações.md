@@ -215,4 +215,4 @@ Poder ter 3 valores: largura, cor e estilo.<br>
 
 `}`
 
-<br>![border]()
+<br>![border](https://github.com/JefreyJones/dio-desafio-github-primeiro-repositorio/blob/main/Cursos/Introducao%20a%20HTML%205%20e%20CSS%203/imagens/border.jpg)<br>
