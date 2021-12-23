@@ -364,3 +364,39 @@ border-radius: 50%;<br>
 `text-decoration overline;`
 
 `}`<br><br>
+
+## Estilizando Listas <br>
+
+<br>
+
+### List-Style-Type <br>
+
+**Ex:**<br>
+
+`ul {`
+
+`list-style-type: square;`
+
+`}`<br><br>
+
+`ol {`
+
+`list-style-type: upper-roman;`
+
+`}`<br><br>
+
+`ul {`
+
+`list-style-type: "\1f44d";`  (símbolo de um emoji de joinha)
+
+`}`<br><br>
+
+### List-Style-Image <br>
+
+**Ex:**<br>
+
+`ul {`
+
+`list-style-image: url("rocket.png";`
+
+`}`<br><br>
