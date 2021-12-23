@@ -93,3 +93,12 @@ Num layout de um site, o navegador representa cada elemento **HTML**, com uma ca
 
 Possui 4 áreas: margin, border, padding e content.<br>
 
+![Box model](C:\Users\jefre\OneDrive\Documentos\Cursos\Dio.me\Bootcamp - MRV - Fullstack Developer\04 - Introdução a criação de websites com HTML5 e CSS3\Box-model.png)
+
+**Margin** - espaçamento entre elementos.<br>
+
+**Border** - circundam o padding e o content.  Podemos alterar a aparência (largura e cor).<br>
+
+**Padding** - espaçamento entre a **"Border"** e a **"Content"**.<br>
+
+**Content** - é o que o seu bloco representa: um texto, uma imagem ou um vídeo.<br>
