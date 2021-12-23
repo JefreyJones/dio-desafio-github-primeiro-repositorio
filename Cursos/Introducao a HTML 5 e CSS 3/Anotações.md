@@ -203,7 +203,7 @@ Poder ter 3 valores: largura, cor e estilo.<br>
 
 <br>
 
-**Ex:**
+**Ex1:**
 
 `.post {`
 
@@ -216,3 +216,58 @@ Poder ter 3 valores: largura, cor e estilo.<br>
 `}`
 
 <br>![border](https://github.com/JefreyJones/dio-desafio-github-primeiro-repositorio/blob/main/Cursos/Introducao%20a%20HTML%205%20e%20CSS%203/imagens/border.jpg)<br>
+
+<br><br>
+
+**Ex2:**
+
+`.post {`
+
+`border-top: 2px dotted green;`
+
+`border-right: 4px dashed pink;`
+
+`boder-botton: 1px solid purple;`
+
+`boder-left: 4px dotted cyan;`
+
+`}`
+
+<br>
+
+<br>
+
+**Ex3:**
+
+`.post {`
+
+`border-top-width: 3px;`
+
+`border-top-color: blue;`
+
+`boder-top-style: solid;`
+
+`}`
+
+<br><br>
+
+## Border-Radius <br>
+
+<br>
+
+Permite arredondar os cantos de um elemento.  Assim como nos elementos anteriores, permite colocar um valor para lados dos cantos do elemento (pixel ou em %) ou especificar os quatro valores possíveis.<br>
+
+**Ex:**<br> border-radius: 10px;
+
+border-radius: 10% 20% 15% 22%;
+
+<br>
+
+**Obs:** em um elemento quadrado, se configurarmos a propriedade para **"50%"**, ele será convertido para um círculo.<br>
+
+**Ex:**<br>
+
+border-radius: 50%;<br>
+
+
+
