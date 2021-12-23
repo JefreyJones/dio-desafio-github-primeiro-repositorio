@@ -2,19 +2,16 @@
 
 **Instrutor: Lucas Vilaboim**  
 
-  
-
-
-
+<br>  
 
 - HTML criado em 1991;
-- Existem 5 versões (HTLM5 lançado em 2014);
-
-  
 
 
+- Existem 5 versões (HTLM5 lançado em 2014);<br>
 
-### Estrutura básica de um doc HTML -
+  <br>
+
+  ### Estrutura básica de um documento HTML -
 
 <br>
 
@@ -32,31 +29,19 @@
 
 **`</head>`**
 
-**`<body>`** -  onde estará o conteúdo da página.  
-
-
+**`<body>`** -  onde estará o conteúdo da página.<br>
 
 **`</body>`**
 
 **`</html>`**  
 
-  
+ <br><br>**OBS:** só pode haver um **`<h1>`** por página.  
 
-
-
-**OBS:** só pode haver um **`<h1>`** por página.  
-
-  
-
-
+  <br><br>
 
 ### Alguns elementos de semântica -  
 
-  
-
-
-
-**`<section>`** - representa uma seção genérica de conteúdo. Ex: uma lista de artigos.
+  <br><br>**`<section>`** - representa uma seção genérica de conteúdo. Ex: uma lista de artigos.
 
 **`<header>`**  - cabeçalho da página ou de uma section.
 
@@ -66,4 +51,4 @@
 
 **`<footer>`**  - rodapé da página, de um section, um article e até do body.
 
-**`<h1>-<h6>`** - marcar importância de títulos.
+**`<h1>-<h6>`** - marcar importância de títulos.<br>
