@@ -49,7 +49,7 @@
 
 **`<h1>-<h6>`** - marcar importância de títulos.<br><br><br>
 
-#Introdução e Conceitos básicos do CSS3<br>
+# Introdução e Conceitos básicos do CSS3<br>
 
 **Instrutor: Lucas Vilaboim** 
 
@@ -61,17 +61,17 @@ Criada em 1996.  É uma linguagem de estilo, você cria regras de estilo para el
 
 <br>
 
-a, p, h1, h3 {
+`a, p, h1, h3 {`
 
-color: blue;
+`color: blue;`
 
-font-size: 14px;
+`font-size: 14px;`
 
-}
+`}`
 
 <br>
 
-Uma regra **CSS** é formada por um seletor ou um grupo de seletores (elementos **HTML**).<br><br>
+Uma regra **CSS** é formada por um seletor ou um grupo de seletores (elementos **HTML**).<br>
 
 Dentro de um par de chaves temos as declarações.<br>
 
@@ -79,15 +79,15 @@ Uma declaração é formada por uma propriedade e um valor.<br><br>
 
 ## ID x Classe
 
-<br><br>
+<br>
 
-No **CSS**, uma **classe** é precedida por um ponto ".".<br>
+No **CSS**, uma **Classe** é precedida por um ponto ".".<br>
 
 O **Id** é precedido por um "#".  Um **Id** só pode ser usado uma vez por página.<br><br><br>
 
 ## BOX Model
 
-<br><br>
+<br>
 
 Num layout de um site, o navegador representa cada elemento **HTML**, com uma caixa retangular chamada **"Box Model"**.<br>
 
