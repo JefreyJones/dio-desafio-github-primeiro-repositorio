@@ -119,11 +119,11 @@ Se quisermos atribuir tamanhos diferentes para cada lado, podemos fazer de 3 for
 
 **Ex:**<br>
 
-.post {
+`.post {`
 
-padding: 10px 5px;
+`padding: 10px 5px;`
 
-}
+`}`
 
 Neste exemplo, o valor **"10px"** (eixo y - superior e inferior) e **"5px"** (eixo x - esquerdo e direito).<br><br>
 
@@ -131,11 +131,11 @@ Neste exemplo, o valor **"10px"** (eixo y - superior e inferior) e **"5px"** (ei
 
 **Ex:**<br>
 
-.post {
+`.post {`
 
-padding: 10px 15px 5px 0;
+`padding: 10px 15px 5px 0;`
 
-}
+`}`
 
 Neste exemplo, o valor **"10px"** (topo),  **"15px"** (direita), **"5px"** (parte inferior) e **"0"** (lador esquerdo).<br><br>
 
@@ -143,17 +143,17 @@ Neste exemplo, o valor **"10px"** (topo),  **"15px"** (direita), **"5px"** (part
 
 **Ex:**<br>
 
-.post {
+`.post {`
 
-padding-top: 15px:
+`padding-top: 15px:`
 
-padding-right: 10px;
+`padding-right: 10px;`
 
-padding-botton: 5px;
+`padding-botton: 5px;`
 
-padding-left: 0;
+`padding-left: 0;`
 
-}
+`}`
 
 <br>
 
