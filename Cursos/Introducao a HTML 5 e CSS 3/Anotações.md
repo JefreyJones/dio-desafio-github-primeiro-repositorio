@@ -271,5 +271,25 @@ border-radius: 10% 20% 15% 22%;
 
 border-radius: 50%;<br>
 
+<br>
+
+<br>
+
+## Estilizando Texto <br>
+
+<br>
+
+### Fonte-Family <br>
+
+**Ex:**<br>
+
+.post-title {
+
+font-family: verdana, Arial;
+
+}<br>
+
+**Obs:** no exemplo acima, **"verdana"** é a fonte principal e **"Arial"** a fonte alternativa se a principal falhar.<br>
+
 
 
