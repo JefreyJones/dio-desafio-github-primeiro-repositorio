@@ -373,7 +373,7 @@ border-radius: 50%;<br>
 
 **Ex:**<br>
 
-~~~
+~~~css
 ul {
  list-style-type: square;
 }
@@ -381,7 +381,7 @@ ul {
 
 <br>
 
-~~~
+~~~css
 ol {
  list-style-type: upper-roman;
 }
@@ -389,7 +389,7 @@ ol {
 
 <br>
 
-~~~
+~~~css
 ul {
  list-style-type: "\1f44d";  (símbolo de um emoji de joinha)
 }
