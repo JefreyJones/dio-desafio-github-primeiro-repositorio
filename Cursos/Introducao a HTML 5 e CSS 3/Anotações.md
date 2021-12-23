@@ -14,11 +14,11 @@
 
 
 
-### Estrutura básica de um doc HTML -  
+### Estrutura básica de um doc HTML -
 
-  
+<br>
 
-
+<br>
 
 **`<!DOCTYPE html>`** - informa ao navegador o que está sendo escrito (não é um elemento HTML).
 
