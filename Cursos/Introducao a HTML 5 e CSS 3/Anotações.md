@@ -283,13 +283,13 @@ border-radius: 50%;<br>
 
 **Ex:**<br>
 
-.post-title {
+`.post-title {`
 
-font-family: verdana, Arial;
+`font-family: verdana, arial;`
 
-}<br>
+`}`<br>
 
-**Obs:** no exemplo acima, **"verdana"** é a fonte principal e **"Arial"** a fonte alternativa se a principal falhar.<br>
+**Obs:** no exemplo acima, **"verdana"** é a fonte principal e **"arial"** a fonte alternativa se a principal falhar.<br>
 
 
 
