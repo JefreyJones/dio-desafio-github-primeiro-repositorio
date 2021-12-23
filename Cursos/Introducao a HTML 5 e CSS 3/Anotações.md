@@ -4,34 +4,40 @@
 
 <br>  
 
-- HTML criado em 1991;
-
-
-- Existem 5 versões (HTLM5 lançado em 2014);<br>
+O HTML foi criado em 1991.  Existem 5 versões (HTLM5 lançado em 2014)<br>
 
 <br>
 
 ## Estrutura básica de um documento HTML -
 
-<br>**`<!DOCTYPE html>`** - informa ao navegador o que está sendo escrito (não é um elemento HTML).
+<br>
+
+~~~html
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+~~~
+
+**`<!DOCTYPE html>`** - informa ao navegador o que está sendo escrito (não é um elemento HTML).
 
 **`<html>`** -  inicia os elementos (é a raiz do documento).
 
 **`<head>`** -  teremos meta informações (informações usadas por um navegador, buscador de internet...).
 
-> > **`<meta charset="UTF-8">`** -  codificação de caracteres que será utilizada pelo sistema.
+**`<meta charset="UTF-8">`** -  codificação de caracteres que será utilizada pelo sistema.
 
-> > **`<title> </title>`** -  coloca o título na aba do navegador.
+**`<title> </title>`** -  coloca o título na aba do navegador.
 
-**`</head>`**
+**`<body>`** -  onde estará o conteúdo da página.
 
-**`<body>`** -  onde estará o conteúdo da página.<br>
-
-**`</body>`**
-
-**`</html>`**  
-
- <br><br>**OBS:** só pode haver um **`<h1>`** por página.  
+<br>**OBS:** só pode haver um **`<h1>`** por página.  
 
   <br><br>
 
@@ -59,15 +65,14 @@ Criada em 1996.  É uma linguagem de estilo, você cria regras de estilo para el
 
 **Ex:** uma regra **CSS** é formada por um seletor ou um grupo de seletores.  Dentro de um par de chaves temos as declarações.<br>
 
-<br>
+~~~css
+a, p, h1, h3 {
+	color: blue;
+	font-size: 14px;
+}
+~~~
 
-`a, p, h1, h3 {`
 
-`color: blue;`
-
-`font-size: 14px;`
-
-`}`
 
 <br>
 
@@ -119,11 +124,13 @@ Se quisermos atribuir tamanhos diferentes para cada lado, podemos fazer de 3 for
 
 **Ex:**<br>
 
-`.post {`
+~~~css
+.post {
+	padding: 10px 5px;
+}
+~~~
 
-`padding: 10px 5px;`
 
-`}`
 
 Neste exemplo, o valor **"10px"** (eixo y - superior e inferior) e **"5px"** (eixo x - esquerdo e direito).<br><br>
 
@@ -131,11 +138,13 @@ Neste exemplo, o valor **"10px"** (eixo y - superior e inferior) e **"5px"** (ei
 
 **Ex:**<br>
 
-`.post {`
+~~~css
+.post {
+	padding: 10px 15px 5px 0;
+}
+~~~
 
-`padding: 10px 15px 5px 0;`
 
-`}`
 
 Neste exemplo, o valor **"10px"** (topo),  **"15px"** (direita), **"5px"** (parte inferior) e **"0"** (lador esquerdo).<br><br>
 
@@ -143,19 +152,16 @@ Neste exemplo, o valor **"10px"** (topo),  **"15px"** (direita), **"5px"** (part
 
 **Ex:**<br>
 
-`.post {`
+~~~css
+.post {
+	padding-top: 15px:
+	padding-right: 10px;
+	padding-botton: 5px;
+	padding-left: 0;
+}
+~~~
 
-`padding-top: 15px:`
-
-`padding-right: 10px;`
-
-`padding-botton: 5px;`
-
-`padding-left: 0;`
-
-`}`
-
-<br><br>
+<br>
 
 ### Background <br>
 
@@ -163,15 +169,15 @@ Podemos mudar cor de fundo, colocar uma imagem e alterar posicionamento.<br>
 
 **Ex:**
 
-`.post {`
+~~~css
+.post {
+	background-color: green;
+	background-image: url("bg.png");
+	background-position: top;
+}
+~~~
 
-`background-color: green;`
-
-`background-image: url("bg.png");`
-
-`background-position: top;`
-
-`}` <br>
+ <br>
 
 **OBS:** Pode ser estudado através do site da **[Mozilla Developer Network](https://developer.mozilla.org).**
 
@@ -179,17 +185,13 @@ Podemos mudar cor de fundo, colocar uma imagem e alterar posicionamento.<br>
 
 A mudança da cor de fundo, pode ser realizada de três maneiras:<br>
 
-`.post {`
-
-`background-color: green;`
-
-`background-color: #008800;`
-
-`background: #008800 ou green;`
-
-`}`
-
-<br>
+~~~css
+.post {
+	background-color: green;
+	background-color: #008800;
+	background: #008800 ou green;
+}
+~~~
 
 <br>
 
@@ -205,49 +207,42 @@ Poder ter 3 valores: largura, cor e estilo.<br>
 
 **Ex1:**
 
-`.post {`
+~~~css
+.post {
+	border: 3px solid blue;
+	border-top: 2px dotted green;
+	boder-right: 4px dashed pink;
+}
+~~~
 
-`border: 3px solid blue;`
 
-`border-top: 2px dotted green;`
-
-`boder-right: 4px dashed pink;`
-
-`}`
 
 <br>![border](https://github.com/JefreyJones/dio-desafio-github-primeiro-repositorio/blob/main/Cursos/Introducao%20a%20HTML%205%20e%20CSS%203/imagens/border.jpg)<br>
 
-<br><br>
+<br>
 
 **Ex2:**
 
-`.post {`
-
-`border-top: 2px dotted green;`
-
-`border-right: 4px dashed pink;`
-
-`boder-botton: 1px solid purple;`
-
-`boder-left: 4px dotted cyan;`
-
-`}`
-
-<br>
+~~~css
+.post {
+	border-top: 2px dotted green;
+	border-right: 4px dashed pink;
+	boder-botton: 1px solid purple;
+	boder-left: 4px dotted cyan;
+}
+~~~
 
 <br>
 
 **Ex3:**
 
-`.post {`
-
-`border-top-width: 3px;`
-
-`border-top-color: blue;`
-
-`boder-top-style: solid;`
-
-`}`
+~~~css
+.post {
+	border-top-width: 3px;
+	border-top-color: blue;
+	boder-top-style: solid;
+}
+~~~
 
 <br><br>
 
@@ -259,9 +254,11 @@ Permite arredondar os cantos de um elemento.  Assim como nos elementos anteriore
 
 **Ex:**<br>
 
+~~~css
 border-radius: 10px;
 
 border-radius: 10% 20% 15% 22%;
+~~~
 
 <br>
 
@@ -269,7 +266,9 @@ border-radius: 10% 20% 15% 22%;
 
 **Ex:**<br>
 
-border-radius: 50%;<br>
+~~~css
+border-radius: 50%;
+~~~
 
 <br>
 
@@ -283,11 +282,13 @@ border-radius: 50%;<br>
 
 **Ex:**<br>
 
-`.post-title {`
+~~~css
+.post-title {
+	font-family: verdana, arial;
+}
+~~~
 
-`font-family: verdana, arial;`
-
-`}`<br>
+<br>
 
 **Obs:** no exemplo acima, **"verdana"** é a fonte principal e **"arial"** a fonte alternativa se a principal falhar.<br><br>
 
@@ -295,75 +296,93 @@ border-radius: 50%;<br>
 
 **Ex:**<br>
 
-`.post-title {`
+~~~css
+#post-title {
+	font-size: 18px;
+}
+~~~
 
-`font-size: 18px;`
-
-`}`<br><br>
+<br><br>
 
 ### Font-Style <br>
 
 **Ex:**<br>
 
-`#title {`
+~~~css
+#title {
+	font-style: normal;
+}
+~~~
 
-`font-style: normal;`
+<br>
 
-`}`<br><br>
+~~~css
+.subtitle {
+	font-style: italic;
+}
+~~~
 
-`#subtitle {`
-
-`font-style: italic;`
-
-`}`<br><br>
+<br><br>
 
 ### Font-Weight <br>
 
 **Ex:**<br>
 
-`#title {`
+~~~css
+#title {
+	font-weight: normal;
+}
+~~~
 
-`font-weight: normal;`
+<br>
 
-`}`<br><br>
+~~~css
+#subtitle {
+	font-weight: bold;
+}
+~~~
 
-`#subtitle {`
-
-`font-weight: bold;`
-
-`}`<br><br>
+<br><br>
 
 ### Text-Transform <br>
 
 **Ex:**<br>
 
-`#title {`
+~~~css
+#title {
+	text-transform: uppercase;
+}
+~~~
 
-`text-transform: uppercase;`
+<br>
 
-`}`<br><br>
+~~~css
+#subtitle {
+	text-transform: lowercase;
+}
+~~~
 
-`#subtitle {`
-
-`text-transform: lowercase;`
-
-`}`<br><br>
+<br><br>
 
 ### Text-Decoration <br>
 
 **Ex:**<br>
 
-`#title {`
+~~~css
+#title {
+	text-decoration: underline;
+}
+~~~
 
-`text-decoration: underline;`
+<br>
 
-`}`<br><br>
+~~~css
+#subtitle {
+	text-decoration: overline;
+}
+~~~
 
-`#subtitle {`
-
-`text-decoration overline;`
-
-`}`<br><br>
+<br><br>
 
 ## Estilizando Listas <br>
 
