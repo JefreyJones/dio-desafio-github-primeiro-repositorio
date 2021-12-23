@@ -395,16 +395,10 @@ border-radius: 50%;<br>
 
 **Ex:**<br>
 
-~~~
-~~~
-
+~~~css
 ul {
-
-   list-style-image: url("rocket.png";
-
+ list-style-image: url("rocket.png");
 }
-
-~~~
 ~~~
 
 <br><br>
