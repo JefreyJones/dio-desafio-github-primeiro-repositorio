@@ -9,7 +9,7 @@
 
 ### Estrutura básica de um doc HTML -
 
-OBS: só pode haver um <h1> por página.
+OBS: só pode haver um **`<h1>`** por página.
 
 
 ### Alguns elementos de semântica -
