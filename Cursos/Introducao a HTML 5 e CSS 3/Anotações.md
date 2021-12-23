@@ -102,3 +102,58 @@ Possui 4 áreas: margin, border, padding e content.<br>
 **Padding** - espaçamento entre a **"Border"** e a **"Content"**.<br>
 
 **Content** - é o que o seu bloco representa: um texto, uma imagem ou um vídeo.<br>
+
+<br>
+
+## Estilizando elementos<br>
+
+<br>
+
+### Padding e Margin
+
+<br>
+
+Se quisermos atribuir tamanhos diferentes para cada lado, podemos fazer de 3 formas:<br>
+
+1 - Colocando 1 valor para as partes superior e inferior, depois para os lados esquerdo e direto.<br>
+
+**Ex:**<br>
+
+.post {
+
+padding: 10px 5px;
+
+}
+
+Neste exemplo, o valor **"10px"** (eixo y - superior e inferior) e **"5px"** (eixo x - esquerdo e direito).<br><br>
+
+2 - Colocando um valor para cada lado.<br>
+
+**Ex:**<br>
+
+.post {
+
+padding: 10px 15px 5px 0;
+
+}
+
+Neste exemplo, o valor **"10px"** (topo),  **"15px"** (direita), **"5px"** (parte inferior) e **"0"** (lador esquerdo).<br><br>
+
+3 - Usando as proriedades específicas para cada lado.  Mais uado quando temos uma padding ou margin com os 3 lados iguais e somente 1 diferente.<br>
+
+**Ex:**<br>
+
+.post {
+
+padding-top: 15px:
+
+padding-right: 10px;
+
+padding-botton: 5px;
+
+padding-left: 0;
+
+}
+
+<br>
+
