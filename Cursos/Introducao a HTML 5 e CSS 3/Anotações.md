@@ -373,23 +373,29 @@ border-radius: 50%;<br>
 
 **Ex:**<br>
 
-`ul {`
+~~~
+ul {
+ list-style-type: square;
+}
+~~~
 
-`list-style-type: square;`
+<br>
 
-`}`<br><br>
+~~~
+ol {
+ list-style-type: upper-roman;
+}
+~~~
 
-`ol {`
+<br>
 
-`list-style-type: upper-roman;`
+~~~
+ul {
+ list-style-type: "\1f44d";  (símbolo de um emoji de joinha)
+}
+~~~
 
-`}`<br><br>
-
-`ul {`
-
-`list-style-type: "\1f44d";`  (símbolo de um emoji de joinha)
-
-`}`<br><br>
+<br><br>
 
 ### List-Style-Image <br>
 
