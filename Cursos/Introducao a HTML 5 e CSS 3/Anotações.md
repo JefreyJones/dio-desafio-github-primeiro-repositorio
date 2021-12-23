@@ -397,6 +397,20 @@ border-radius: 50%;<br>
 
 `ul {`
 
-  `list-style-image: url("rocket.png";`
+`list-style-image: url("rocket.png";`
 
-`}`<br><br>
+`}`<br><br><br>
+
+## Dimensão e Alinhamento <br><br>
+
+**width** - Ajustar largura.
+
+**height** - Ajustar altura.<br><br>
+
+**max-width** - Refere-se a largura máxima que o elemento pode ter. <br>
+
+**max-height** - Refere-se a altura máxima que o elemento pode ter. <Br>
+
+**margin** - Serve para alinhar algum elemento automaticamente. <br>
+
+**text-align** - Serve para alinhar textos  (a direita, a esquerda ou justificado).
