@@ -155,5 +155,64 @@ Neste exemplo, o valor **"10px"** (topo),  **"15px"** (direita), **"5px"** (part
 
 `}`
 
+<br><br>
+
+### Background <br>
+
+Podemos mudar cor de fundo, colocar uma imagem e alterar posicionamento.<br>
+
+**Ex:**
+
+`.post {`
+
+`background-color: green;`
+
+`background-image: url("bg.png");`
+
+`background-position: top;`
+
+`}` <br>
+
+**OBS:** Pode ser estudado através do site da **[Mozilla Developer Network](https://developer.mozilla.org).**
+
 <br>
 
+A mudança da cor de fundo, pode ser realizada de três maneiras:<br>
+
+`.post {`
+
+`background-color: green;`
+
+`background-color: #008800;`
+
+`background: #008800 ou green;`
+
+`}`
+
+<br>
+
+<br>
+
+### Border <br>
+
+Poder ter 3 valores: largura, cor e estilo.<br>
+
+- largura: pixels, centímetros, milímetros ...
+- cor: nome da cor em inglês ou pelo código hexadecimal
+- estilo: sólido, pontilhado, tracejado ...
+
+<br>
+
+**Ex:**
+
+`.post {`
+
+`border: 3px solid blue;`
+
+`border-top: 2px dotted green;`
+
+`boder-right: 4px dashed pink;`
+
+`}`
+
+<br>![border]()
