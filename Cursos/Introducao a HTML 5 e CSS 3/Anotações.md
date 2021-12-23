@@ -2,16 +2,21 @@
 
 **Instrutor: Lucas Vilaboim**  
 
+  
+
 
 
 
 - HTML criado em 1991;
-
-- Existem 5 versões (HTLM5 lançado em 2014);  
+- Existem 5 versões (HTLM5 lançado em 2014);
 
   
 
+
+
 ### Estrutura básica de um doc HTML -  
+
+  
 
 
 
@@ -35,13 +40,19 @@
 
 **`</html>`**  
 
+  
+
 
 
 **OBS:** só pode haver um **`<h1>`** por página.  
 
+  
+
 
 
 ### Alguns elementos de semântica -  
+
+  
 
 
 
