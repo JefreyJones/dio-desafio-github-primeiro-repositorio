@@ -397,6 +397,6 @@ border-radius: 50%;<br>
 
 `ul {`
 
-`list-style-image: url("rocket.png";`
+  `list-style-image: url("rocket.png";`
 
 `}`<br><br>
