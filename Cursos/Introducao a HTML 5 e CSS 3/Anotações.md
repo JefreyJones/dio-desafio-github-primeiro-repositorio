@@ -257,7 +257,7 @@ Poder ter 3 valores: largura, cor e estilo.<br>
 
 Permite arredondar os cantos de um elemento.  Assim como nos elementos anteriores, permite colocar um valor para lados dos cantos do elemento (pixel ou em %) ou especificar os quatro valores possíveis.<br>
 
-**Ex:**<br> border-radius: 10px;
+**Ex:**<br>border-radius: 10px;
 
 border-radius: 10% 20% 15% 22%;
 
