@@ -8,33 +8,29 @@
 
 ### Estrutura básica de um doc HTML -
 
-<!DOCTYPE html>
+**`<!DOCTYPE html>`** - informa ao navegador o que está sendo escrito (não é um elemento HTML).
 
-<html lang="en">
+**`<html>`** -  inicia os elementos (é a raiz do documento).
 
-<head>
+**`<head>`** -  teremos meta informações (informações usadas por um navegador, buscador de internet...).
 
-    <meta charset="UTF-8">
+​		**`<meta charset="UTF-8">`** -  codificação de caracteres que será utilizada pelo sistema.
 
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+​		**`<title> </title>`** -  coloca o título na aba do navegador.
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+**`</head>`**
 
-  <title>Document</title>
+**`<body>`** -  onde estará o conteúdo da página.
 
-</head>
+**`</body>`**
 
-<body>
-
-  
-
-</body>
-
-</html>
+**`</html>`**
 
 
 
-OBS: só pode haver um **`<h1>`** por página.
+**OBS:** só pode haver um **`<h1>`** por página.
+
+
 
 
 ### Alguns elementos de semântica -
