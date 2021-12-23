@@ -1,118 +1,34 @@
-# Introdução ao Git e ao GitHub
+# Introdução a criação de websites com HTML5 e CSS3
 
-**Instrutor: Otávio Reis**
+**Instrutor: Lucas Vilaboim**
 
 
+- HTML criado em 1991;
+- Existem 5 versões (HTLM5 lançado em 2014);
 
-### Principais características:
 
-- Controle de versão;
-- Armazenamento em nuvem;
-- Trabalho em equipe;
-- Melhorar o seu código;
-- Reconhecimento.
+### Estrutura básica de um doc HTML -
 
-### Elementos -
+<!DOCTYPE html> -> informa ao navegador o que está sendo escrito (não é um elemento HTML)
+<html> -> inicia os elementos (é a raiz do documento)
+<head> -> teremos meta informações (informações usadas por um navegador, buscador de internet...)
+    <meta charset="UTF-8"> -> codificação de caracteres que será utilizada pelo sistema
+    <title>Document</title> -> coloca o título na aba do navegador
+</head>
+<body> -> onde estará o conteúdo da página
+    
+</body>
+</html>
 
-**Encriptação** -  O sha1, um algoritmo de encriptação (hash seguro).  A encriptação gera um conjunto de caracteres identificador de 40 dígitos.  Para gerar um código para um arquivo; no terminal do git, digite: **`openssl sha1 "nome do arquivo"`**.
+OBS: só pode haver um <h1> por página.
 
 
+### Alguns elementos de semântica -
 
-**Objetos fundamentais** - Três tipos  básicos de objetos responsáveis pelo versionamento do nosso código: ***blobs, trees e commits***.
-
-
-
-### Autenticação no GitHub -
-
-**Chave SSH** - Forma de estabelecer uma conexão segura e encriptada ( com 2 chaves - 1 pública e 1 privada).
-
-- Comandos para gerar as 2 chaves:  **`ssh-keygen -t ed25519 -c "meu email"`**
-- Iniciar o ssh agent (entidade responsável por lidar com as chaves geradas): **`eval $(ssh-agent -s)`**
-- Passar a chave privada para o ssh-agent: **`ssh-add "chave privada"`**
-
-
-
-**Segunda forma: "Token de acesso pessoal"**
-
-
-
-### Comandos -
-
-**`git init`** - Inicializar um repositório.
-
-**Obs:** se for a primeira vez a usar o Git, será necessário executar alguns comandos para realizar a configuração inicial:
-
-- **`git config --global user.mail "meu e-mail"`**
-- **`git config --global user.name "meu nome"`**
-
-
-
-**`git add`** - envia os arquivos para a área de staging (área temporária).
-
-
-
-**`git commit -m "texto identificador da alteração"`** - envia para o repositório local.
-
-
-
-**`git push origin master`** - envia as alterações no repositório local, para o repositório no GitHub.
-
-
-
-### **Após criar o repositório no GitHub**
-
-É necessário apontar o seu Git para o caminho remoto no GitHub.  No Git, digite o comando:
-
- **`git remote add orign "caminho do seu repositório no GitHub"`**.
-
-Em seguida, verifique o status com o comando: **`git remote -v`**.
-
-**Obs:** caso as configurações de e-mail e user name no Git estejam diferentes do existente no GitHub, é possível ajustar, utilizando os seguintes comandos:
-
-- Para visualizar as configurações atuais no Git: **`git config --list`**
-
-- Caso seja necessário ajustar, por exemplo, o user name, use os comandos:
-
-  **`git config --global --unset user.name`**
-
-  **`git config --global user.name "nome correto"`**
-
-
-
-### Para puxar o seu conteúdo do GitHub, para o computador local: 
-
-**`git pull origin master`**
-
-
-
-### Para clonar um repositório do GitHub: 
-
-**`git clone "endereço do repositório"`**
-
-
-
-### Para criar uma nova Branch: 
-
-**`git checkout -b "nome da branch"`**
-
-
-
-### Para retornar para a Branch Master: 
-
-**`git checkout master`**
-
-
-
-### Para fazer um merge (juntar as Branches): 
-
-1 - retornar para a branch master: **`git checkout master`**
-
-2 - realizar o merge: **`git merge "nome da branch"`**
-
-3 - enviar para o GitHub: **`git push origin master`**
-
-
-
-### Para baixar o conteúdo de um repositório no GitHub para o repositório local:
-
-**`git pull "endereço do repositório no GitHub"`**
+**`<section>`** - representa uma seção genérica de conteúdo. Ex: uma lista de artigos.
+**`<header>`**  - cabeçalho da página ou de uma section.
+**`<article>`** - representa um conteúdo relevante dentro de uma página, como um post de um blog.
+**`<aside>`**   - é uma seção que engloba conteúdos relacionados ao conteúdo principal.
+                  Ex: artigos relacionados, biografia do autor e publicidade.
+**`<footer>`**  - rodapé da página, de um section, um article e até do body.
+**`<h1>-<h6>`** - marcar importância de títulos.
