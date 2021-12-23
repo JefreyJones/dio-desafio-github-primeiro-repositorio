@@ -289,7 +289,7 @@ border-radius: 50%;<br>
 
 `}`<br>
 
-**Obs:** no exemplo acima, **"verdana"** é a fonte principal e **"arial"** a fonte alternativa se a principal falhar.<br>
+**Obs:** no exemplo acima, **"verdana"** é a fonte principal e **"arial"** a fonte alternativa se a principal falhar.<br><br>
 
 ### Font-Size <br>
 
@@ -299,7 +299,7 @@ border-radius: 50%;<br>
 
 `font-size: 18px;`
 
-`}`<br>
+`}`<br><br>
 
 ### Font-Style <br>
 
@@ -309,13 +309,13 @@ border-radius: 50%;<br>
 
 `font-style: normal;`
 
-`}`<br>
+`}`<br><br>
 
 `#subtitle {`
 
 `font-style: italic;`
 
-`}`<br>
+`}`<br><br>
 
 ### Font-Weight <br>
 
@@ -325,13 +325,13 @@ border-radius: 50%;<br>
 
 `font-weight: normal;`
 
-`}`<br>
+`}`<br><br>
 
 `#subtitle {`
 
 `font-weight: bold;`
 
-`}`<br>
+`}`<br><br>
 
 ### Text-Transform <br>
 
@@ -341,10 +341,26 @@ border-radius: 50%;<br>
 
 `text-transform: uppercase;`
 
-`}`<br>
+`}`<br><br>
 
 `#subtitle {`
 
 `text-transform: lowercase;`
 
-`}`<br>
+`}`<br><br>
+
+### Text-Decoration <br>
+
+**Ex:**<br>
+
+`#title {`
+
+`text-decoration: underline;`
+
+`}`<br><br>
+
+`#subtitle {`
+
+`text-decoration overline;`
+
+`}`<br><br>
