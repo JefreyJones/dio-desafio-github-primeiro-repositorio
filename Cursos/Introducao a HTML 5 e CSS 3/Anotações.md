@@ -395,11 +395,19 @@ border-radius: 50%;<br>
 
 **Ex:**<br>
 
-​    `ul {`
+~~~
+~~~
 
-​      `list-style-image: url("rocket.png";`
+ul {
 
-​    `}`<br><br><br>
+   list-style-image: url("rocket.png";
+
+}
+
+~~~
+~~~
+
+<br><br>
 
 ## Dimensão e Alinhamento <br><br>
 
