@@ -93,7 +93,7 @@ Num layout de um site, o navegador representa cada elemento **HTML**, com uma ca
 
 Possui 4 áreas: margin, border, padding e content.<br>
 
-![Box model](C:\Users\jefre\OneDrive\Documentos\Cursos\Dio.me\Projetos\dio-desafio-github-primeiro-repositorio\Cursos\Introducao a HTML 5 e CSS 3\imagens\Box-model.png)
+![Box model](https://github.com/JefreyJones/dio-desafio-github-primeiro-repositorio/blob/main/Cursos/Introducao%20a%20HTML%205%20e%20CSS%203/imagens/Box-model.png)
 
 **Margin** - espaçamento entre elementos.<br>
 
