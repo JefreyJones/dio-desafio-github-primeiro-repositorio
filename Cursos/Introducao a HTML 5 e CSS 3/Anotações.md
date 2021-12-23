@@ -28,8 +28,9 @@
 
 
 
-**OBS:** só pode haver um **`<h1>`** por página.
 
+
+**OBS:** só pode haver um **`<h1>`** por página.
 
 
 
