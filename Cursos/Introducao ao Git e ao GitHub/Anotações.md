@@ -14,7 +14,7 @@
 
 ### Elementos -
 
-**Encriptação** -  O sha1, um algoritmo de encriptação (hash seguro).  A encriptação gera um conjunto de caracteres identificador de 40 dígitos.  Para gerar um código para um arquivo; no terminal do git, digite: **`openssl sha1 "nome do arquivo"`**.
+**Encriptação** -  O sha1 é um algoritmo de encriptação (hash seguro).  A encriptação gera um conjunto de caracteres identificadores de 40 dígitos.  Para gerar um código para um arquivo; no terminal do git, digite: **`openssl sha1 "nome do arquivo"`**.
 
 
 
